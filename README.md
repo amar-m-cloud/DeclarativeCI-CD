@@ -6,6 +6,6 @@ Pipeline CI/CD - GitHub, Maven, Jenkins, Artifactory, SonarQube, Docker, Tom
 
 Access to the tomcat after successfully deploying:
 
-Ex: http://awsip:8050/helloworld-0.0.1-SNAPSHOT/hello
+Ex: http://public-ip:8050/helloworld-0.0.1-SNAPSHOT/hello
 
 Note: Tomcat was made to access in the port 8050. It was changed in the Dockerfile's RUN command.
